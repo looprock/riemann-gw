@@ -8,7 +8,7 @@ host - string: hostname of submitter
 
 service - string: name of service
 
-metric [optional] - string representation of a number, re "5"
+metric - string representation of a number, re "5"
 
 ttl [optional] - string representation of a number, re: "10", defaults to 10
 
