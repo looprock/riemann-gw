@@ -11,7 +11,6 @@ import requests
 import json
 
 url = 'http://localhost:8080/riemann'
-# http localhost:8080/riemann state=critical host=foohost service=foosrv metric=10
 payload = {'state': 'critical', 'host': 'foohost', 'service': 'foosvc', 'metric': "10"}
 
 r = requests.post(url, data=json.dumps(payload))
